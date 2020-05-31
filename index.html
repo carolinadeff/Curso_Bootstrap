@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="UTF-8">
+        <!--importação css bootstrap-->
+        <link rel="stylesheet" type="text/CSS" href="bootstrap/css/bootstrap.min.css">
+        <!--também vamos criar nosso próprio css, nossa própria folha de estilo
+            para fazer nossas prórpias manipúlações-->
+        <link rel="stylesheet" type="text/CSS" href="css/style.css">
+    </head>
+
+    <body>
+        <!--criação da barra de navegação-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/flor.png" width="150px">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <!--vamos criar a classe quem-somos e perosnalizar-->
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin2">Quem Somos</h3>
+                <img src="img/estacao.jpg" class="rounded-lg" width="400px" height="400px">
+                <h4 class="margin2">Somos um time unido</h4>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3>PARCEIROS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/estacao.jpg" width="100px" height="100px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/escri.jpg" width="100px" height="100px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/engrenasdouradas.jpg" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3>SERVIÇOS</h3>
+                <DIV class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Textotextotexoetxoetxoetxoe</p>
+                            <img src="img/circuito.jpg" width="300px" height="300px">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>textotexottexottexoetxoeteoxter</p>
+                            <img src="img/engrenasdouradas.jpg"width="300px" height="300px">
+                        </div>
+                    </div>
+                </DIV>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Carolina Defferrari</p>
+        </footer>
+    </body>
+</html>
